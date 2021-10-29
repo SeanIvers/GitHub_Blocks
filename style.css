@@ -1,0 +1,40 @@
+.container {
+    width: 760px;
+    height: 910px;
+    text-align: center;
+    background-color: aliceblue;
+}
+h1 {
+    position: relative;
+    top: 25px;
+    font-family: sans-serif;
+    font-size: 250%;
+}
+.img-box {
+    position: relative;
+    height: 240px;
+    top: 20px;
+    margin: 20px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+img.octocat {
+    height: 200px;
+}
+#box1 {
+    background-color: deepskyblue;
+    justify-content: space-around;
+}
+#box2 {
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
+#box3 {
+    background-color: black;
+    justify-content: space-evenly;
+}
+h4 {
+    position: relative;
+    top: 18px;
+    font-weight: lighter;
+}
